@@ -1,0 +1,93 @@
+{{ form_start(form, {'attr' : {'id':'form_book'}}) }}
+    <div class="pl-lg-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    {{ form_label(form.title, "Titre du livre", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.title) }}
+                    {{ form_widget(form.title, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    {{ form_label(form.author, "Auteur", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.author) }}
+                    {{ form_widget(form.author, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    {{ form_label(form.editor, "Maison d'édition", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.editor) }}
+                    {{ form_widget(form.editor, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    {{ form_label(form.published_dt, "Date de publication", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.published_dt) }}
+                    {{ form_widget(form.published_dt, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    {{ form_label(form.language, "Langue", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.language) }}
+                    {{ form_widget(form.language, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="form-group">
+                    {{ form_label(form.tome, "Tome", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.tome) }}
+                    {{ form_widget(form.tome, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-group">
+                    {{ form_label(form.number, "Nombre d'exemplaire", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.number) }}
+                    {{ form_widget(form.number, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+        </div>
+        <hr class="my-4" />
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    {{ form_label(form.descritpion, "Description", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.descritpion) }}
+                    {{ form_widget(form.descritpion, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    {{ form_label(form.image, "Couverture du livre", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.image) }}
+                    {{ form_widget(form.image, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    {{ form_label(form.category, "Categories", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.category) }}
+                    {{ form_widget(form.category, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ form_widget(form) }}
+    <button class="btn">{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}
+
+

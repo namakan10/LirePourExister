@@ -1,0 +1,61 @@
+{{ form_start(form, {'attr' : {'id':'form_member'}}) }}
+<div class="pl-lg-4">
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="form-group">
+                {{ form_label(form.firtName, "Prénom", {'label_attr': {'class': 'form-control-label'}}) }}
+                {{ form_errors(form.firtName) }}
+                {{ form_widget(form.firtName, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                {{ form_label(form.lastName, "Nom de famille", {'label_attr': {'class': 'form-control-label'}}) }}
+                {{ form_errors(form.lastName) }}
+                {{ form_widget(form.lastName, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="form-group">
+                {{ form_label(form.email, "Email", {'label_attr': {'class': 'form-control-label'}}) }}
+                {{ form_errors(form.email) }}
+                {{ form_widget(form.email, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="form-group">
+                {{ form_label(form.phone, "Numéro de téléphone", {'label_attr': {'class': 'form-control-label'}}) }}
+                {{ form_errors(form.phone) }}
+                {{ form_widget(form.phone, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="form-group">
+                {{ form_label(form.expired_at, "Abonnées pour (/mois)", {'label_attr': {'class': 'form-control-label'}}) }}
+                {{ form_errors(form.expired_at) }}
+                {{ form_widget(form.expired_at, {'attr': {'class': '', 'autocomplete' : 'off', 'data-field': 'datetime'}}) }}
+            </div>
+        </div>
+    </div>
+    <hr class="my-4" />
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group">
+                {{ form_label(form.address, "Adresse", {'label_attr': {'class': 'form-control-label'}}) }}
+                {{ form_errors(form.address) }}
+                {{ form_widget(form.address, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ form_widget(form) }}
+<button class="btn">{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}
+
+<div id="dtBox"></div>
+
+

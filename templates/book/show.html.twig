@@ -1,0 +1,85 @@
+{% extends 'Admin/admin_template.html.twig' %}
+
+{% block title %}Livre{% endblock %}
+{% block title2 %}Livre{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+            <div class="card card-profile shadow">
+                <img src="{{ asset('uploads/' ~ book.image) }}" />
+            </div>
+        </div>
+        <div class="col-xl-8 order-xl-1">
+            <div class="card shadow">
+                <div class="card-header bg-white border-0">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h1 class="mb-0">
+                                <a href="{{ path('book_index') }}">
+                                    <i class="fas fa-arrow-left text-primary"></i>
+                                </a>
+                                Livre
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table align-items-center table-flush">
+                            <tbody>
+                            <tr>
+                                <th>Titre</th>
+                                <td>{{ book.title }}</td>
+                            </tr>
+                            <tr>
+                                <th>Auteur</th>
+                                <td>{{ book.author }}</td>
+                            </tr>
+                            <tr>
+                                <th>Maison d'édition</th>
+                                <td>{{ book.editor }}</td>
+                            </tr>
+                            <tr>
+                                <th>Published_dt</th>
+                                <td>{{ book.publishedDt ? book.publishedDt|date('d-m-Y') : '' }}</td>
+                            </tr>
+                            <tr>
+                                <th>Langue</th>
+                                <td>{{ book.language }}</td>
+                            </tr>
+                            <tr>
+                                <th>Exemplaires</th>
+                                <td>{{ book.number }}</td>
+                            </tr>
+                            <tr>
+                                <th>Tome</th>
+                                <td>{{ book.tome }}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <hr class="my-4" />
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Description</h3>
+                                <p>{{ book.descritpion }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br/>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <a href="{{ path('book_edit', {'id': book.id}) }}" class="btn btn-info">Modifier</a>
+                        </div>
+                        <div class="col">
+                            {{ include('book/_delete_form.html.twig') }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

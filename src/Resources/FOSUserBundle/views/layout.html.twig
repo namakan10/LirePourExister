@@ -1,0 +1,10 @@
+{% extends 'loginTemplate.html.twig' %}
+{% block hedears %}
+{% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+    
+{% endif %}
+{% endblock %}
+
+{% block form %}
+    {% block fos_user_content %}{% endblock %}
+{% endblock %}

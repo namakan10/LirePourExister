@@ -1,3 +1,13 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+LirePourExiste_Home:
+    path:     /
+    defaults:
+        _controller: fos_user.security.controller:loginAction
+    options:
+        expose: true
+
+fos_user:
+    resource:  "@FOSUserBundle/Resources/config/routing/all.xml"

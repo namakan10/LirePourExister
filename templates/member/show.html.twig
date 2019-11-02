@@ -1,0 +1,78 @@
+{% extends 'Admin/admin_template.html.twig' %}
+
+{% block title %}Membre{% endblock %}
+{% block title2 %}Membre{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-xl-8 order-xl-1">
+            <div class="card shadow">
+                <div class="card-header bg-white border-0">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h1 class="mb-0">
+                                <a href="{{ path('member_index') }}">
+                                    <i class="fas fa-arrow-left text-primary"></i>
+                                </a>
+                                Membre
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table align-items-center table-flush">
+                            <tbody>
+                            <tr>
+                                <th>CodeMembre</th>
+                                <td>{{ member.user.username }}</td>
+                            </tr>
+                            <tr>
+                                <th>Prénom</th>
+                                <td>{{ member.firtName }}</td>
+                            </tr>
+                            <tr>
+                                <th>Nom</th>
+                                <td>{{ member.lastName }}</td>
+                            </tr>
+                                <th>Téléphone</th>
+                                <td>{{ member.phone }}</td>
+                            </tr>
+                            {% if member.email != null %}
+                                <tr>
+                                    <th>Email</th>
+                                    <td>{{ member.email }}</td>
+                                </tr>
+                            {% endif %}
+                            <tr>
+                                <th>Adresse</th>
+                                <td>{{ member.address }}</td>
+                            </tr>
+                            <tr>
+                                <th>Fin de l'abonnement</th>
+                                <td>{{ member.expiredAt ? member.expiredAt|date('d-m-Y') : '' }}</td>
+                            </tr>
+                            <tr>
+
+                            </tbody>
+                        </table>
+
+                        <hr class="my-4" />
+
+                    </div>
+
+                    <br/>
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <a href="{{ path('member_edit', {'id': member.id}) }}" class="btn btn-info">Modifier</a>
+                        </div>
+                        <div class="col">
+                            {{ include('member/_delete_form.html.twig') }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

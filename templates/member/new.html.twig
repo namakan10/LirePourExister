@@ -1,0 +1,29 @@
+{% extends 'Admin/admin_template.html.twig' %}
+
+{% block title %}New Member{% endblock %}
+{% block title2 %}Nouveau membre{% endblock %}
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-xl-8 order-xl-1">
+            <div class="card bg-secondary shadow">
+                <div class="card-header bg-white border-0">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h1 class="mb-0">
+                                <a href="{{ path('member_index') }}" class="fas fa-arrow-left text-primary"></a>
+                                Ajout d'un membre
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {{ include('member/_form.html.twig') }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
