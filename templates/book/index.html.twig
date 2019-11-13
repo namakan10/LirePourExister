@@ -18,10 +18,10 @@
                         <thead class="thead-light">
                         <tr>
                             <th scope="col">Titre</th>
-                            <th scope="col">Auteur</th>
                             <th scope="col">Date de publication</th>
                             <th scope="col">Langues</th>
                             <th scope="col">Exemplaires</th>
+                            <th scope="col">Disponibilité</th>
                             <th scope="col"></th>
                         </tr>
                         </thead>
@@ -29,10 +29,10 @@
                             {% for book in books %}
                             <tr>
                                 <td>{{ book.title }}</td>
-                                <td>{{ book.author }}</td>
                                 <td>{{ book.publishedDt ? book.publishedDt|date('d-m-Y') : '' }}</td>
                                 <td>{{ book.language }}</td>
-                                <td>{{ book.number }}</td>
+                                <td>{{ book.nbreCopies }}</td>
+                                <td>{{ book.availability }}</td>
                                 <td class="text-right">
                                     <div class="dropdown">
                                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

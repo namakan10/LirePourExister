@@ -3,11 +3,15 @@
 namespace App\Entity;
 
 use Doctrine\Common\Collections\ArrayCollection;
+use Symfony\Component\HttpFoundation\File\File;
+use Vich\UploaderBundle\Mapping\Annotation as Vich;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
+
 /**
  * @ORM\Entity(repositoryClass="App\Repository\BookRepository")
+ * @Vich\Uploadable
  */
 class Book
 {
@@ -23,10 +27,6 @@ class Book
      */
     private $title;
 
-    /**
-     * @ORM\Column(type="string", length=255)
-     */
-    private $author;
 
     /**
      * @ORM\Column(type="date")
@@ -41,36 +41,78 @@ class Book
     /**
      * @ORM\Column(type="integer")
      */
-    private $number;
+    private $nbre_copies;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="Theme", inversedBy="books")
+     */
+    private $theme;
 
     /**
      * @ORM\Column(type="string", length=255)
-     */
-    private $tome;
-
-    /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Category", inversedBy="books")
-     */
-    private $category;
-
-    /**
-     * @ORM\Column(type="string", length=255)
+     * @var string
      */
     private $image;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @Vich\UploadableField(mapping="books_cover", fileNameProperty="image")
+     * @var File
      */
-    private $editor;
+    private $imageFile;
+
+
 
     /**
      * @ORM\Column(type="text")
      */
     private $descritpion;
 
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $nbrePage;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $IsbnIssn;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $Availability;
+
+    /**
+     * @ORM\Column(type="datetime")
+     * @var \DateTime
+     */
+    private $updatedAt;
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Borrow", mappedBy="book")
+     */
+    private $borrows;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Author", mappedBy="book")
+     */
+    private $authors;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="App\Entity\Editor", inversedBy="book")
+     * @ORM\JoinColumn(nullable=false)
+     */
+    private $editor;
+
+
+
     public function __construct()
     {
-        $this->category = new ArrayCollection();
+        $this->theme = new ArrayCollection();
+        $this->updatedAt = new \DateTime();
+        $this->borrows = new ArrayCollection();
+        $this->authors = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -90,17 +132,6 @@ class Book
         return $this;
     }
 
-    public function getAuthor(): ?string
-    {
-        return $this->author;
-    }
-
-    public function setAuthor(string $author): self
-    {
-        $this->author = $author;
-
-        return $this;
-    }
 
     public function getPublishedDt(): ?\DateTimeInterface
     {
@@ -126,55 +157,26 @@ class Book
         return $this;
     }
 
-    public function getNumber(): ?int
+
+
+    public function setImageFile(File $image = null)
     {
-        return $this->number;
-    }
+        $this->imageFile = $image;
 
-    public function setNumber(int $number): self
-    {
-        $this->number = $number;
-
-        return $this;
-    }
-
-    public function getTome(): ?string
-    {
-        return $this->tome;
-    }
-
-    public function setTome(string $tome): self
-    {
-        $this->tome = $tome;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Category[]
-     */
-    public function getCategory(): Collection
-    {
-        return $this->category;
-    }
-
-    public function addCategory(Category $category): self
-    {
-        if (!$this->category->contains($category)) {
-            $this->category[] = $category;
+        // VERY IMPORTANT:
+        // It is required that at least one field changes if you are using Doctrine,
+        // otherwise the event listeners won't be called and the file is lost
+        if ($image) {
+            // if 'updatedAt' is not defined in your entity, use another property
+            $this->updatedAt = new \DateTime('now');
         }
-
-        return $this;
     }
 
-    public function removeCategory(Category $category): self
+    public function getImageFile()
     {
-        if ($this->category->contains($category)) {
-            $this->category->removeElement($category);
-        }
-
-        return $this;
+        return $this->imageFile;
     }
+
 
     public function getImage(): ?string
     {
@@ -188,17 +190,6 @@ class Book
         return $this;
     }
 
-    public function getEditor(): ?string
-    {
-        return $this->editor;
-    }
-
-    public function setEditor(string $editor): self
-    {
-        $this->editor = $editor;
-
-        return $this;
-    }
 
     public function getDescritpion(): ?string
     {
@@ -208,6 +199,164 @@ class Book
     public function setDescritpion(string $descritpion): self
     {
         $this->descritpion = $descritpion;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Theme[]
+     */
+    public function getTheme(): Collection
+    {
+        return $this->theme;
+    }
+
+    public function addTheme(Theme $theme): self
+    {
+        if (!$this->theme->contains($theme)) {
+            $this->theme[] = $theme;
+        }
+
+        return $this;
+    }
+
+    public function removeCategory(Theme $theme): self
+    {
+        if ($this->theme->contains($theme)) {
+            $this->theme->removeElement($theme);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Borrow[]
+     */
+    public function getBorrows(): Collection
+    {
+        return $this->borrows;
+    }
+
+    public function addBorrow(Borrow $borrow): self
+    {
+        if (!$this->borrows->contains($borrow)) {
+            $this->borrows[] = $borrow;
+            $borrow->setBook($this);
+        }
+
+        return $this;
+    }
+
+    public function removeBorrow(Borrow $borrow): self
+    {
+        if ($this->borrows->contains($borrow)) {
+            $this->borrows->removeElement($borrow);
+            // set the owning side to null (unless already changed)
+            if ($borrow->getBook() === $this) {
+                $borrow->setBook(null);
+            }
+        }
+
+        return $this;
+    }
+
+
+    public function getIsbnIssn(): ?string
+    {
+        return $this->IsbnIssn;
+    }
+
+    public function setIsbnIssn(string $IsbnIssn): self
+    {
+        $this->IsbnIssn = $IsbnIssn;
+
+        return $this;
+    }
+
+    public function getAvailability(): ?string
+    {
+        return $this->Availability;
+    }
+
+    public function setAvailability(string $Availability): self
+    {
+        $this->Availability = $Availability;
+
+        return $this;
+    }
+
+    public function getNbreCopies(): ?int
+    {
+        return $this->nbre_copies;
+    }
+
+    public function setNbreCopies(int $nbre_copies): self
+    {
+        $this->nbre_copies = $nbre_copies;
+
+        return $this;
+    }
+
+    public function getNbrePage(): ?int
+    {
+        return $this->nbrePage;
+    }
+
+    public function setNbrePage(int $nbrePage): self
+    {
+        $this->nbrePage = $nbrePage;
+
+        return $this;
+    }
+
+    public function getUpdatedAt(): ?\DateTimeInterface
+    {
+        return $this->updatedAt;
+    }
+
+    public function setUpdatedAt(\DateTimeInterface $updatedAt): self
+    {
+        $this->updatedAt = $updatedAt;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Author[]
+     */
+    public function getAuthors(): Collection
+    {
+        return $this->authors;
+    }
+
+    public function addAuthor(Author $author): self
+    {
+        if (!$this->authors->contains($author)) {
+            $this->authors[] = $author;
+            $author->addBook($this);
+        }
+
+        return $this;
+    }
+
+    public function removeAuthor(Author $author): self
+    {
+        if ($this->authors->contains($author)) {
+            $this->authors->removeElement($author);
+            $author->removeBook($this);
+        }
+
+        return $this;
+    }
+
+    public function getEditor(): ?Editor
+    {
+        return $this->editor;
+    }
+
+    public function setEditor(?Editor $editor): self
+    {
+        $this->editor = $editor;
 
         return $this;
     }

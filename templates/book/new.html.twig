@@ -9,7 +9,11 @@
 
 {% block content %}
     <div class="row">
-        <div class="col-sm-2"></div>
+        <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+            <div class="card card-profile shadow" id="uploadForm">
+
+            </div>
+        </div>
         <div class="col-xl-8 order-xl-1">
             <div class="card bg-secondary shadow">
                 <div class="card-header bg-white border-0">
@@ -37,6 +41,10 @@
     <script type="text/javascript">
 
         $(document).ready(function() {
+
+            $('#book_imageFile_file').change(function () {
+                filePreview(this);
+            });
             //$("button").addClass("btn2");
             $('#book_category').multiselect({
                 buttonText: function(options, select) {
@@ -60,6 +68,7 @@
                     }
                 }
             });
+
             $('#form_book').on('submit', function (event) {
                 //let file = this.files[0];
                 let fileType = $('#book_image').val().split('.').pop().toLowerCase();
@@ -68,7 +77,18 @@
                     alert("Veuillez séléctionner une image !");
                     return false;
                 }
-            })
+            });
+
+            function filePreview(input) {
+                if (input.files && input.files[0]) {
+                    let reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('#uploadForm + img').remove();
+                        $('#uploadForm').after('<img src="'+e.target.result+'"/>');
+                    }
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
         });
     </script>
 {% endblock %}

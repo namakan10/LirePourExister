@@ -4,6 +4,7 @@ namespace App\Form;
 
 use App\Entity\Member;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\EmailType;
 use Symfony\Component\Form\FormBuilderInterface;
@@ -24,6 +25,15 @@ class MemberType extends AbstractType
             ->add('expired_at', DateType::class, array(
                 'format' => 'dd-MM-yyyy',
             ))
+            ->add('birthdayDt', DateType::class, array(
+                'format' => 'dd-MM-yyyy',
+            ))
+            ->add('sexe', ChoiceType::class, [
+                'choices' => [
+                    'Masculin' => 'Masculin',
+                    'Feminin' => 'Feminin'
+                ]
+            ])
 
         ;
     }

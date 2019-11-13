@@ -7,7 +7,7 @@
     <div class="row">
         <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
             <div class="card card-profile shadow">
-                <img src="{{ asset('uploads/' ~ book.image) }}" />
+                <img src="{{ asset('images/books_cover/' ~ book.image) }}" />
             </div>
         </div>
         <div class="col-xl-8 order-xl-1">
@@ -34,11 +34,15 @@
                             </tr>
                             <tr>
                                 <th>Auteur</th>
-                                <td>{{ book.author }}</td>
+                                <td>
+                                    {% for auth in book.authors %}
+                                        {{ auth.name }}
+                                    {% endfor %}
+                                </td>
                             </tr>
                             <tr>
                                 <th>Maison d'édition</th>
-                                <td>{{ book.editor }}</td>
+                                <td>{{ book.editor.name }}</td>
                             </tr>
                             <tr>
                                 <th>Published_dt</th>
@@ -50,11 +54,11 @@
                             </tr>
                             <tr>
                                 <th>Exemplaires</th>
-                                <td>{{ book.number }}</td>
+                                <td>{{ book.nbreCopies }}</td>
                             </tr>
                             <tr>
-                                <th>Tome</th>
-                                <td>{{ book.tome }}</td>
+                                <th>Nombre de page</th>
+                                <td>{{ book.nbrePage }}</td>
                             </tr>
                             </tbody>
                         </table>

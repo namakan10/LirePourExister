@@ -1,7 +1,7 @@
 {% extends 'Admin/admin_template.html.twig' %}
 
-{% block title %}Membre{% endblock %}
-{% block title2 %}Membre{% endblock %}
+{% block title %}Usager{% endblock %}
+{% block title2 %}Usager{% endblock %}
 
 {% block content %}
     <div class="row">
@@ -36,6 +36,7 @@
                                 <th>Nom</th>
                                 <td>{{ member.lastName }}</td>
                             </tr>
+                            <tr>
                                 <th>Téléphone</th>
                                 <td>{{ member.phone }}</td>
                             </tr>
@@ -50,11 +51,17 @@
                                 <td>{{ member.address }}</td>
                             </tr>
                             <tr>
+                                <th>Date de Naissance</th>
+                                <td>{{ member.birthdayDt ? member.birthdayDt|date('d-m-Y') : '' }}</td>
+                            </tr>
+                            <tr>
+                                <th>Date d'adhésion</th>
+                                <td>{{ member.registrationDt ? member.registrationDt|date('d-m-Y') : '' }}</td>
+                            </tr>
+                            <tr>
                                 <th>Fin de l'abonnement</th>
                                 <td>{{ member.expiredAt ? member.expiredAt|date('d-m-Y') : '' }}</td>
                             </tr>
-                            <tr>
-
                             </tbody>
                         </table>
 

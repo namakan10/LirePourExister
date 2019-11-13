@@ -1,0 +1,74 @@
+{% extends 'Admin/admin_template.html.twig' %}
+
+{% block title %}Category index{% endblock %}
+
+{% block title2 %}Liste des catégories{% endblock %}
+
+
+{% block content %}
+    <div class="row">
+        <div class="col">
+            <div class="card shadow">
+                <div class="card-header border-0">
+                    <h3 class="mb-0">Listes des livres</h3>
+                </div>
+                <div class="table-responsive">
+                    <table class="table align-items-center table-flush">
+                        <thead class="thead-light">
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>actions</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for th in theme %}
+                            <tr>
+                                <td>{{ th.id }}</td>
+                                <td>{{ th.name }}</td>
+                                <td class="text-right">
+                                    <div class="dropdown">
+                                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                            <a class="dropdown-item" href="{{ path('theme_show', {'id': th.id}) }}">Voir</a>
+                                            <a class="dropdown-item" href="{{ path('theme_edit', {'id': th.id}) }}">Editer</a>
+                                        </div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        {% else %}
+                            <tr>
+                                <td colspan="8">Aucun catégorie trouvée</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="navigation">
+                    {{ knp_pagination_render(categories) }}
+                </div>
+            </div>
+            <br/>
+
+
+            <a href="{{ path('theme_new') }}" class="btn btn btn-primary">Ajouter une catégorie</a>
+            <br/><br/><br/>
+        </div>
+    </div>
+{% endblock %}
+
+{% block search %}
+    {{ form_start(form, {'attr' : {'class' : "navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto"}}) }}
+        <div class="form-group mb-0">
+            <div class="input-group input-group-alternative">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-search"></i></span>
+                </div>
+                {{ form_row(form.name, {'attr' : {'class' : "form-control", 'autocomplete' : 'off'}}) }}
+            </div>
+        </div>
+    {{ form_end(form) }}
+{% endblock %}

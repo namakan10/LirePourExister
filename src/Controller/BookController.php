@@ -6,10 +6,10 @@ use App\Entity\Book;
 use App\Form\BookType;
 use App\Repository\BookRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+
 
 /**
  * @Route("/admin")
@@ -32,15 +32,12 @@ class BookController extends AbstractController
     public function new(Request $request): Response
     {
         $book = new Book();
+        $book->setPublishedDt(new \DateTime());
         $form = $this->createForm(BookType::class, $book);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
             $entityManager = $this->getDoctrine()->getManager();
-            $file = $form->get('image')->getData();
-            $fileName = md5(uniqid()).'.'.$file->guessExtension();
-            $file->move($this->getParameter('uploads_directory'), $fileName);
-            $book->setImage($fileName);
             $entityManager->persist($book);
             $entityManager->flush();
 
@@ -68,10 +65,7 @@ class BookController extends AbstractController
      */
     public function edit(Request $request, Book $book): Response
     {
-        $oldFileName = $book->getImage();
-        $oldFilePath = $this->getParameter('uploads_directory').'/'.$oldFileName;
-        $picture = new File($oldFilePath);
-        $book->setImage($picture);
+
         $form = $this->createForm(BookType::class, $book);
         $form->handleRequest($request);
 

@@ -17,6 +17,7 @@ class GeneralController extends AbstractController
         if(in_array("ROLE_SUPER_ADMIN", $user->getRoles())){
             return $this->redirectToRoute('admin_dashboard');
         }
+
         return $this->render('general/index.html.twig', [
             'controller_name' => 'GeneralController',
         ]);

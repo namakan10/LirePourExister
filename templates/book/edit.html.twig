@@ -1,13 +1,93 @@
 {% extends 'Admin/admin_template.html.twig' %}
 
 {% block title %}Edit Book{% endblock %}
+{% block title2 %}Modification d'un livre livre{% endblock %}
+
+{% block customStyleSheet %}
+    <link href="{{ asset('asset/css/bootstrap-multiselect.css') }}" rel="stylesheet">
+{% endblock %}
 
 {% block content %}
-    <h1>Edit Book</h1>
+    <div class="row">
+        <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
+            <div class="card card-profile shadow" id="uploadForm">
 
-    {{ include('book/_form.html.twig', {'button_label': 'Update'}) }}
+            </div>
+        </div>
+        <div class="col-xl-8 order-xl-1">
+            <div class="card bg-secondary shadow">
+                <div class="card-header bg-white border-0">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h1 class="mb-0">
+                                <a href="{{ path('book_index') }}" class="fas fa-arrow-left text-primary"></a>
+                                Ajout d'un livre
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {{ include('book/_form.html.twig') }}
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <a href="{{ path('book_index') }}">back to list</a>
+{% endblock %}
 
-    {{ include('book/_delete_form.html.twig') }}
+{% block customJavascript %}
+    <script src="{{ asset('asset/js/bootstrap-multiselect.js') }}"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('#book_imageFile_file').change(function () {
+                filePreview(this);
+            });
+            //$("button").addClass("btn2");
+            $('#book_category').multiselect({
+                buttonText: function(options, select) {
+                    if (options.length === 0) {
+                        return 'Aucune catégorie séléctionner !';
+                    }
+                    else if (options.length > 3) {
+                        return 'Plus de 3 options séléctionner !';
+                    }
+                    else {
+                        var labels = [];
+                        options.each(function() {
+                            if ($(this).attr('label') !== undefined) {
+                                labels.push($(this).attr('label'));
+                            }
+                            else {
+                                labels.push($(this).html());
+                            }
+                        });
+                        return labels.join(', ') + '';
+                    }
+                }
+            });
+
+            $('#form_book').on('submit', function (event) {
+                //let file = this.files[0];
+                let fileType = $('#book_image').val().split('.').pop().toLowerCase();
+                let validImageTypes = ["jpeg", "jpg", "png"];
+                if($.inArray(fileType, validImageTypes) == -1){
+                    alert("Veuillez séléctionner une image !");
+                    return false;
+                }
+            });
+
+            function filePreview(input) {
+                if (input.files && input.files[0]) {
+                    let reader = new FileReader();
+                    reader.onload = function (e) {
+                        $('#uploadForm + img').remove();
+                        $('#uploadForm').after('<img src="'+e.target.result+'"/>');
+                    }
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+        });
+    </script>
 {% endblock %}

@@ -6,6 +6,7 @@ use App\Entity\Member;
 use App\Form\MemberType;
 use App\Repository\MemberRepository;
 use FOS\UserBundle\Model\UserManagerInterface;
+use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -19,10 +20,15 @@ class MemberController extends AbstractController
     /**
      * @Route("/memberList", name="member_index", methods={"GET"})
      */
-    public function index(MemberRepository $memberRepository): Response
+    public function index(MemberRepository $memberRepository, PaginatorInterface $paginator, Request $request): Response
     {
+        $members = $paginator->paginate(
+            $memberRepository->findMember(),
+            $request->query->getInt('page', 1), /*page number*/
+            10 /*limit per page*/
+        );
         return $this->render('member/index.html.twig', [
-            'members' => $memberRepository->findAll(),
+            'members' => $members
         ]);
     }
 

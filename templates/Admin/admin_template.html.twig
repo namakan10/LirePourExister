@@ -69,8 +69,23 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ path('author_index') }}">
+                                <i class="ni ni-badge text-blue"></i> Auteurs
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ path('editor_index') }}">
+                                <i class="ni ni-building text-purple"></i> Maison d'edition
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ path('member_index') }}">
+                                <i class="ni ni-tag text-blue"></i> Thèmes
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ path('book_index') }}">
-                                <i class="ni ni-books text-blue"></i> Livres
+                                <i class="ni ni-books text-pink"></i> Livres
                             </a>
                         </li>
                         <li class="nav-item">
@@ -90,16 +105,9 @@
                     <!-- Brand -->
                     <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block">{% block title2 %}{% endblock %}</a>
                     <!-- Form -->
-                    <form class="navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto">
-                        <div class="form-group mb-0">
-                            <div class="input-group input-group-alternative">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="fas fa-search"></i></span>
-                                </div>
-                                <input class="form-control" placeholder="Search" type="text">
-                            </div>
-                        </div>
-                    </form>
+                    {% block search %}
+
+                    {% endblock %}
                     <!-- User -->
                     <ul class="navbar-nav align-items-center d-none d-md-flex">
                         <li class="nav-item dropdown">
