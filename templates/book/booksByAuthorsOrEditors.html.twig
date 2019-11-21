@@ -18,7 +18,7 @@
                 {% endfor %}
                 <div class="card-header border-0">
                     <h3 class="mb-0">
-                        Listes des livres
+                        {{ message }}
                         <span class="text-success mr-2">
                             ({{ books.totalItemCount }} trouvés !)
                         </span>
@@ -37,7 +37,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                            {% for book in books %}
+                        {% for book in books %}
                             <tr>
                                 <td>{{ book.title }}</td>
                                 <td>{{ book.publishedDt ? book.publishedDt|date('d-m-Y') : '' }}</td>
@@ -92,7 +92,7 @@
         <div class="input-group input-group-alternative">
             <div class="input-group-prepend">
             </div>
-                {{ form_row(form.title, {'attr' : {'class' : "form-control", 'autocomplete' : 'off'}}) }}
+            {{ form_row(form.title, {'attr' : {'class' : "form-control", 'autocomplete' : 'off'}}) }}
         </div>
         <button class="btn btn-primary" type="submit">Recherche</button>
     </div>

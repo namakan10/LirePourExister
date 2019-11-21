@@ -3,12 +3,22 @@
 {% block title %}Author index{% endblock %}
 {% block title2 %}Auteurs{% endblock %}
 
+{% block activeAuthor %}
+    active
+{% endblock %}
+
 
 
 {% block content %}
     <div class="row">
         <div class="col">
             <div class="card shadow">
+                {% for message in app.session.flashBag.get('success') %}
+                    <div class="alert alert-dismissible alert-success">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>{{ message }}</strong>
+                    </div>
+                {% endfor %}
                 <div class="card-header border-0">
                     <h3 class="mb-0">
                         Listes des auteurs
@@ -61,6 +71,7 @@
 
 
             <a href="{{ path('author_new') }}" class="btn btn btn-primary">Ajouter un auteur</a>
+            <br/>
             <br/>
         </div>
     </div>

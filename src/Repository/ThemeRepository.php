@@ -24,7 +24,8 @@ class ThemeRepository extends ServiceEntityRepository
 
     public function findTheme(ThemeSearch $search) : Query
     {
-        $query = $this->findAllTheme();
+        $query = $this->findAllTheme()
+            ->orderBy('t.name', 'ASC');
 
         if($search->getName()){
             $query = $query

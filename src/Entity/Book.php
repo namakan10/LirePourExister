@@ -43,14 +43,11 @@ class Book
      */
     private $nbre_copies;
 
-    /**
-     * @ORM\ManyToMany(targetEntity="Theme", inversedBy="books")
-     */
-    private $theme;
+
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @var string
+     * @var string|null
      */
     private $image;
 
@@ -89,13 +86,10 @@ class Book
      */
     private $updatedAt;
 
-    /**
-     * @ORM\OneToMany(targetEntity="App\Entity\Borrow", mappedBy="book")
-     */
-    private $borrows;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Author", mappedBy="book")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Author", inversedBy="book")
+     * @ORM\JoinColumn(nullable=false)
      */
     private $authors;
 
@@ -106,13 +100,33 @@ class Book
     private $editor;
 
 
+    /**
+     * @ORM\ManyToMany(targetEntity="Theme", inversedBy="books")
+     */
+    private $theme;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $nbre_total;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Borrow", mappedBy="book")
+     */
+    private $borrows;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Cart", mappedBy="Book")
+     */
+    private $carts;
 
     public function __construct()
     {
         $this->theme = new ArrayCollection();
         $this->updatedAt = new \DateTime();
-        $this->borrows = new ArrayCollection();
         $this->authors = new ArrayCollection();
+        $this->borrows = new ArrayCollection();
+        $this->carts = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -159,14 +173,14 @@ class Book
 
 
 
-    public function setImageFile(File $image = null)
+    public function setImageFile(?File $image = null) : void
     {
         $this->imageFile = $image;
 
         // VERY IMPORTANT:
         // It is required that at least one field changes if you are using Doctrine,
         // otherwise the event listeners won't be called and the file is lost
-        if ($image) {
+        if (null !== $image) {
             // if 'updatedAt' is not defined in your entity, use another property
             $this->updatedAt = new \DateTime('now');
         }
@@ -177,18 +191,21 @@ class Book
         return $this->imageFile;
     }
 
-
     public function getImage(): ?string
     {
         return $this->image;
     }
 
-    public function setImage(string $image): self
+
+    public function setImage(?string $image): self
     {
         $this->image = $image;
 
         return $this;
     }
+
+
+
 
 
     public function getDescritpion(): ?string
@@ -229,36 +246,6 @@ class Book
         return $this;
     }
 
-    /**
-     * @return Collection|Borrow[]
-     */
-    public function getBorrows(): Collection
-    {
-        return $this->borrows;
-    }
-
-    public function addBorrow(Borrow $borrow): self
-    {
-        if (!$this->borrows->contains($borrow)) {
-            $this->borrows[] = $borrow;
-            $borrow->setBook($this);
-        }
-
-        return $this;
-    }
-
-    public function removeBorrow(Borrow $borrow): self
-    {
-        if ($this->borrows->contains($borrow)) {
-            $this->borrows->removeElement($borrow);
-            // set the owning side to null (unless already changed)
-            if ($borrow->getBook() === $this) {
-                $borrow->setBook(null);
-            }
-        }
-
-        return $this;
-    }
 
 
     public function getIsbnIssn(): ?string
@@ -357,6 +344,74 @@ class Book
     public function setEditor(?Editor $editor): self
     {
         $this->editor = $editor;
+
+        return $this;
+    }
+
+    public function getNbreTotal(): ?int
+    {
+        return $this->nbre_total;
+    }
+
+    public function setNbreTotal(int $nbre_total): self
+    {
+        $this->nbre_total = $nbre_total;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Borrow[]
+     */
+    public function getBorrows(): Collection
+    {
+        return $this->borrows;
+    }
+
+    public function addBorrow(Borrow $borrow): self
+    {
+        if (!$this->borrows->contains($borrow)) {
+            $this->borrows[] = $borrow;
+            $borrow->addBook($this);
+        }
+
+        return $this;
+    }
+
+    public function removeBorrow(Borrow $borrow): self
+    {
+        if ($this->borrows->contains($borrow)) {
+            $this->borrows->removeElement($borrow);
+            $borrow->removeBook($this);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Cart[]
+     */
+    public function getCarts(): Collection
+    {
+        return $this->carts;
+    }
+
+    public function addCart(Cart $cart): self
+    {
+        if (!$this->carts->contains($cart)) {
+            $this->carts[] = $cart;
+            $cart->addBook($this);
+        }
+
+        return $this;
+    }
+
+    public function removeCart(Cart $cart): self
+    {
+        if ($this->carts->contains($cart)) {
+            $this->carts->removeElement($cart);
+            $cart->removeBook($this);
+        }
 
         return $this;
     }

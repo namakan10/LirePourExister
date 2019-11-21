@@ -7,6 +7,7 @@ use App\Entity\AuthorSearch;
 use App\Form\AuthorSearchType;
 use App\Form\AuthorType;
 use App\Repository\AuthorRepository;
+use App\Repository\BookRepository;
 use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
@@ -57,7 +58,7 @@ class AuthorController extends AbstractController
             $entityManager->persist($author);
             $entityManager->flush();
 
-            return $this->redirectToRoute('author_index');
+            return $this->redirectToRoute('author_show', ['id' => $author->getId()]);
         }
 
         return $this->render('author/new.html.twig', [
@@ -87,7 +88,9 @@ class AuthorController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $this->getDoctrine()->getManager()->flush();
 
-            return $this->redirectToRoute('author_index');
+            return $this->redirectToRoute('author_show', [
+                'id' => $author->getId(),
+            ]);
         }
 
         return $this->render('author/edit.html.twig', [
@@ -99,14 +102,23 @@ class AuthorController extends AbstractController
     /**
      * @Route("/deleteAuthor/{id}", name="author_delete", methods={"DELETE"})
      */
-    public function delete(Request $request, Author $author): Response
+    public function delete(Request $request, Author $author, BookRepository $bookRepository): Response
     {
+
+
         if ($this->isCsrfTokenValid('delete'.$author->getId(), $request->request->get('_token'))) {
             $entityManager = $this->getDoctrine()->getManager();
+            $book = $bookRepository->findByAuthors($author->getId());
+            if($book != null){
+                $this->addFlash('failed', "Certains livres sont enregistrés avec cet auteur
+                            ! Changez l'auteur de ces livres avant de supprimer cet auteur");
+                return $this->redirectToRoute('author_show', ['id' => $author->getId()]);
+            }
             $entityManager->remove($author);
             $entityManager->flush();
         }
 
+        $this->addFlash('success', "Supprimer avec succès !");
         return $this->redirectToRoute('author_index');
     }
 }

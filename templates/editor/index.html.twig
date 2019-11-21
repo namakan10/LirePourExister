@@ -1,37 +1,93 @@
-{% extends 'base.html.twig' %}
+{% extends 'Admin/admin_template.html.twig' %}
 
 {% block title %}Editor index{% endblock %}
+{% block title2 %}Editors{% endblock %}
 
-{% block body %}
-    <h1>Editor index</h1>
-
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Name</th>
-                <th>Description</th>
-                <th>actions</th>
-            </tr>
-        </thead>
-        <tbody>
-        {% for editor in editors %}
-            <tr>
-                <td>{{ editor.id }}</td>
-                <td>{{ editor.name }}</td>
-                <td>{{ editor.description }}</td>
-                <td>
-                    <a href="{{ path('editor_show', {'id': editor.id}) }}">show</a>
-                    <a href="{{ path('editor_edit', {'id': editor.id}) }}">edit</a>
-                </td>
-            </tr>
-        {% else %}
-            <tr>
-                <td colspan="4">no records found</td>
-            </tr>
-        {% endfor %}
-        </tbody>
-    </table>
-
-    <a href="{{ path('editor_new') }}">Create new</a>
+{% block activeEditor %}
+    active
 {% endblock %}
+
+
+
+{% block content %}
+    <div class="row">
+        <div class="col">
+            <div class="card shadow">
+                {% for message in app.session.flashBag.get('success') %}
+                    <div class="alert alert-dismissible alert-success">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <strong>{{ message }}</strong>
+                    </div>
+                {% endfor %}
+                <div class="card-header border-0">
+                    <h3 class="mb-0">
+                        Listes des éditeurs
+                        <span class="text-success mr-2">
+                            ({{ editors.totalItemCount }} trouvés !)
+                        </span>
+                    </h3>
+                </div>
+                <div class="table-responsive">
+                    <table class="table align-items-center table-flush">
+                        <thead class="thead-light">
+                        <tr>
+                            <th scope="col">N°</th>
+                            <th scope="col">Nom</th>
+                            <th scope="col"></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% set comp =1+(10*(editors.currentPageNumber-1)) %}
+                        {% for editor in editors %}
+                            <tr>
+                                <td>{{ comp }}</td>
+                                {% set comp = comp+1 %}
+                                <td>{{ editor.name }}</td>
+                                <td class="text-right">
+                                    <div class="dropdown">
+                                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+                                            <a class="dropdown-item" href="{{ path('editor_show', {'id': editor.id}) }}">Voir</a>
+                                            <a class="dropdown-item" href="{{ path('editor_edit', {'id': editor.id}) }}">Editer</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% else %}
+                            <tr>
+                                <td colspan="8">Aucun éditeur trouvé</td>
+                            </tr>
+                        {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="navigation">
+                    {{ knp_pagination_render(editors) }}
+                </div>
+            </div>
+            <br/>
+
+
+            <a href="{{ path('editor_new') }}" class="btn btn btn-primary">Ajouter un auteur</a>
+            <br/><br/>
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block search %}
+    {{ form_start(form, {'attr' : {'class' : "navbar-search navbar-search-dark form-inline mr-3 d-none d-md-flex ml-lg-auto"}}) }}
+    <div class="form-group mb-0">
+        <div class="input-group input-group-alternative">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fas fa-search"></i></span>
+            </div>
+            {{ form_row(form.name, {'attr' : {'class' : "form-control", 'autocomplete' : 'off'}}) }}
+        </div>
+    </div>
+    {{ form_end(form) }}
+{% endblock %}
+
+

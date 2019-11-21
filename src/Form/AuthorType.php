@@ -18,7 +18,7 @@ class AuthorType extends AbstractType
                 'label' => 'Nom'
             ])
             ->add('biography', TextareaType::class, [
-                'label' => 'Biography'
+                'label' => 'Biographie'
             ])
         ;
     }

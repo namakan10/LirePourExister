@@ -3,6 +3,10 @@
 {% block title %}New Book{% endblock %}
 {% block title2 %}Nouveau livre{% endblock %}
 
+{% block activeBook %}
+    active
+{% endblock %}
+
 {% block customStyleSheet %}
     <link href="{{ asset('asset/css/bootstrap-multiselect.css') }}" rel="stylesheet">
 {% endblock %}
@@ -46,16 +50,16 @@
                 filePreview(this);
             });
             //$("button").addClass("btn2");
-            $('#book_category').multiselect({
+            $('#book_theme').multiselect({
                 buttonText: function(options, select) {
                     if (options.length === 0) {
-                        return 'Aucune catégorie séléctionner !';
+                        return 'Aucun thème séléctionné !';
                     }
                     else if (options.length > 3) {
-                        return 'Plus de 3 options séléctionner !';
+                        return 'Plus de 3 thème séléctionnés !';
                     }
                     else {
-                        var labels = [];
+                        let labels = [];
                         options.each(function() {
                             if ($(this).attr('label') !== undefined) {
                                 labels.push($(this).attr('label'));
@@ -68,6 +72,30 @@
                     }
                 }
             });
+
+            $('#book_authors').multiselect({
+                buttonText: function(options, select) {
+                    if (options.length === 0) {
+                        return 'Aucun auteur séléctionné !';
+                    }
+                    else if (options.length > 3) {
+                        return 'Plus de 3 auteurs séléctionnés !';
+                    }
+                    else {
+                        let labels = [];
+                        options.each(function() {
+                            if ($(this).attr('label') !== undefined) {
+                                labels.push($(this).attr('label'));
+                            }
+                            else {
+                                labels.push($(this).html());
+                            }
+                        });
+                        return labels.join(', ') + '';
+                    }
+                }
+            });
+
 
             $('#form_book').on('submit', function (event) {
                 //let file = this.files[0];

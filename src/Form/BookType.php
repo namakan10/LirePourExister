@@ -2,13 +2,16 @@
 
 namespace App\Form;
 
+use App\Entity\Author;
 use App\Entity\Book;
+use App\Entity\Editor;
 use App\Entity\Theme;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\Extension\Core\Type\DateType;
 use Symfony\Component\Form\Extension\Core\Type\FileType;
+use Symfony\Component\Form\Extension\Core\Type\IntegerType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 use Symfony\Component\Validator\Constraints\Image;
@@ -21,7 +24,11 @@ class BookType extends AbstractType
         $builder
 
             ->add('title')
-            ->add('author')
+            ->add('authors', EntityType::class, [
+                'label' => "Auteurs",
+                'multiple' => "true",
+                'class' => Author::class,
+            ])
             ->add('published_dt', DateType::class, [
                 'format' => "dd-MM-yyyy"
             ])
@@ -43,12 +50,25 @@ class BookType extends AbstractType
                 )
             ))
             ->add('descritpion')
-            ->add('editor')
-            ->add('nbreCopies')
-            ->add('nbrePage')
+            ->add('editor', EntityType::class, [
+                'label' => "Editeur",
+                'multiple' => false,
+                'class' => Editor::class,
+                'choice_value' => 'name'
+            ])
+            ->add('nbreCopies', IntegerType::class, [
+                'attr' => [
+                    'min' => 1
+                ]
+            ])
+            ->add('nbrePage', IntegerType::class, [
+                'attr' => [
+                'min' => 1
+                ]
+            ])
             ->add('imageFile', VichImageType::class)
-            ->add('category', EntityType::class, [
-                'label' => "Categories",
+            ->add('theme', EntityType::class, [
+                'label' => "Thèmes",
                 'multiple' => true,
                 'class' => Theme::class
             ])

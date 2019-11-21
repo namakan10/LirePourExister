@@ -12,7 +12,7 @@ use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
  * @UniqueEntity(
  *     fields={"name"},
  *     errorPath="name",
- *     message="Cet auteur est déjà enregister !"
+ *     message="Cet auteur est déjà enregisté !"
  * )
  *
  */
@@ -36,7 +36,7 @@ class Author
     private $biography;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Book", inversedBy="authors")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Book", mappedBy="authors")
      */
     private $book;
 
@@ -98,5 +98,10 @@ class Author
         }
 
         return $this;
+    }
+
+    public function __toString()
+    {
+        return $this->name;
     }
 }

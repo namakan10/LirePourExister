@@ -145,7 +145,7 @@ class BookFixtures extends Fixture
                 ->setPublishedDt($faker->dateTime)
                 ->setLanguage($faker->randomElement($array = array ("Français" , "Anglais", "Espagnol")))
                 ->setNbreCopies($faker->numberBetween($min = 1, $max = 50))
-                ->setImage($faker->unique()->file($sourceDir = "C:\Users\Guest\Downloads\Compressed\Img",
+                ->setImage($faker->file($sourceDir = "C:\Users\Guest\Downloads\Compressed\Img",
                     $targetDir = "C:/xampp/htdocs/LirePourExister/public/images/books_cover", false))
                 ->setDescritpion($faker->text)
                 ->setNbrePage($faker->numberBetween($min = 10, $max = 2000))

@@ -1,11 +1,34 @@
-{% extends 'base.html.twig' %}
+{% extends 'Admin/admin_template.html.twig' %}
 
 {% block title %}New Theme{% endblock %}
+{% block title2 %}Nouveau thème{% endblock %}
 
-{% block body %}
-    <h1>Create new Theme</h1>
-
-    {{ include('theme/_form.html.twig') }}
-
-    <a href="{{ path('theme_index') }}">back to list</a>
+{% block activeAuthor %}
+    active
 {% endblock %}
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-xl-8 order-xl-1">
+            <div class="card bg-secondary shadow">
+                <div class="card-header bg-white border-0">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <h1 class="mb-0">
+                                <a href="{{ path('theme_index') }}" class="fas fa-arrow-left text-primary"></a>
+                                Ajout d'un thème
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {{ include('theme/_form.html.twig') }}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+

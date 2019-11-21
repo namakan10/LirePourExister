@@ -3,6 +3,11 @@
 {% block title %}Livre{% endblock %}
 {% block title2 %}Livre{% endblock %}
 
+
+{% block activeBook %}
+    active
+{% endblock %}
+
 {% block content %}
     <div class="row">
         <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
@@ -36,13 +41,16 @@
                                 <th>Auteur</th>
                                 <td>
                                     {% for auth in book.authors %}
-                                        {{ auth.name }}
+                                        <a href="{{ path('author_show', {'id': auth.id}) }}">{{ auth.name }}</a>
+                                        <br/>
                                     {% endfor %}
                                 </td>
                             </tr>
                             <tr>
                                 <th>Maison d'édition</th>
-                                <td>{{ book.editor.name }}</td>
+                                <td>
+                                    <a href="{{ path('editor_show', {'id': book.editor.id}) }}">{{ book.editor.name }}</a>
+                                </td>
                             </tr>
                             <tr>
                                 <th>Published_dt</th>
@@ -53,7 +61,11 @@
                                 <td>{{ book.language }}</td>
                             </tr>
                             <tr>
-                                <th>Exemplaires</th>
+                                <th>Exemplaire total</th>
+                                <td>{{ book.nbreTotal }}</td>
+                            </tr>
+                            <tr>
+                                <th>Exemplaire restant</th>
                                 <td>{{ book.nbreCopies }}</td>
                             </tr>
                             <tr>

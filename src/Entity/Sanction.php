@@ -2,14 +2,12 @@
 
 namespace App\Entity;
 
-use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\BorrowRepository")
+ * @ORM\Entity(repositoryClass="App\Repository\SanctionRepository")
  */
-class Borrow
+class Sanction
 {
     /**
      * @ORM\Id()
@@ -29,24 +27,15 @@ class Borrow
     private $end_date;
 
     /**
-     * @ORM\Column(type="string", length=255)
+     * @ORM\Column(type="text")
      */
-    private $type;
+    private $motif;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\Book", inversedBy="borrows")
-     */
-    private $book;
-
-    /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Member", inversedBy="borrows")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Member", inversedBy="sanctions")
+     * @ORM\JoinColumn(nullable=false)
      */
     private $member;
-
-    public function __construct()
-    {
-        $this->book = new ArrayCollection();
-    }
 
     public function getId(): ?int
     {
@@ -77,40 +66,14 @@ class Borrow
         return $this;
     }
 
-    public function getType(): ?string
+    public function getMotif(): ?string
     {
-        return $this->type;
+        return $this->motif;
     }
 
-    public function setType(string $type): self
+    public function setMotif(string $motif): self
     {
-        $this->type = $type;
-
-        return $this;
-    }
-
-    /**
-     * @return Collection|Book[]
-     */
-    public function getBook(): Collection
-    {
-        return $this->book;
-    }
-
-    public function addBook(Book $book): self
-    {
-        if (!$this->book->contains($book)) {
-            $this->book[] = $book;
-        }
-
-        return $this;
-    }
-
-    public function removeBook(Book $book): self
-    {
-        if ($this->book->contains($book)) {
-            $this->book->removeElement($book);
-        }
+        $this->motif = $motif;
 
         return $this;
     }

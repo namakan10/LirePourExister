@@ -7,6 +7,10 @@
     <link href="{{ asset('asset/css/bootstrap-multiselect.css') }}" rel="stylesheet">
 {% endblock %}
 
+{% block activeBook %}
+    active
+{% endblock %}
+
 {% block content %}
     <div class="row">
         <div class="col-xl-4 order-xl-2 mb-5 mb-xl-0">
@@ -21,8 +25,9 @@
                         <div class="col-8">
                             <h1 class="mb-0">
                                 <a href="{{ path('book_index') }}" class="fas fa-arrow-left text-primary"></a>
-                                Ajout d'un livre
+                                Modification des informations  d'un livre
                             </h1>
+                            <br/>
                         </div>
                     </div>
                 </div>
@@ -45,16 +50,39 @@
                 filePreview(this);
             });
             //$("button").addClass("btn2");
-            $('#book_category').multiselect({
+            $('#book_authors').multiselect({
                 buttonText: function(options, select) {
                     if (options.length === 0) {
-                        return 'Aucune catégorie séléctionner !';
+                        return 'Aucun auteur séléctionné !';
                     }
                     else if (options.length > 3) {
-                        return 'Plus de 3 options séléctionner !';
+                        return 'Plus de 3 auteurs séléctionnés !';
                     }
                     else {
-                        var labels = [];
+                        let labels = [];
+                        options.each(function() {
+                            if ($(this).attr('label') !== undefined) {
+                                labels.push($(this).attr('label'));
+                            }
+                            else {
+                                labels.push($(this).html());
+                            }
+                        });
+                        return labels.join(', ') + '';
+                    }
+                }
+            });
+
+            $('#book_theme').multiselect({
+                buttonText: function(options, select) {
+                    if (options.length === 0) {
+                        return 'Aucun thème séléctionné !';
+                    }
+                    else if (options.length > 3) {
+                        return 'Plus de 3 thème séléctionnés !';
+                    }
+                    else {
+                        let labels = [];
                         options.each(function() {
                             if ($(this).attr('label') !== undefined) {
                                 labels.push($(this).attr('label'));

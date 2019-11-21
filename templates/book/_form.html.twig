@@ -12,9 +12,9 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="form-group">
-                    {{ form_label(form.author, "Auteur", {'label_attr': {'class': 'form-control-label'}}) }}
-                    {{ form_errors(form.author) }}
-                    {{ form_widget(form.author, {'attr': {'class': 'form-control form-control-alternative'}}) }}
+                    {{ form_label(form.authors, "Auteur", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.authors) }}
+                    {{ form_widget(form.authors, {'attr': {'class': 'form-control form-control-alternative'}}) }}
                 </div>
             </div>
             <div class="col-lg-6">
@@ -95,9 +95,9 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-                    {{ form_label(form.category, "Categories", {'label_attr': {'class': 'form-control-label'}}) }}
-                    {{ form_errors(form.category) }}
-                    {{ form_widget(form.category, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
+                    {{ form_label(form.theme, "Thèmes", {'label_attr': {'class': 'form-control-label'}}) }}
+                    {{ form_errors(form.theme) }}
+                    {{ form_widget(form.theme, {'attr': {'class': 'form-control form-control-alternative', 'autocomplete' : 'off'}}) }}
                 </div>
             </div>
         </div>

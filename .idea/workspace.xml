@@ -2,401 +2,172 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e38a153a-a237-4395-9d7d-b93f7aa15803" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/49f512a1-b2e5-4f35-a076-b647e3a772d8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/knp_paginator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/packages/vich_uploader.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/01f74943-85d3-3143-a0ad-57f6b8b14984.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0237dbb9-1442-3bb3-882c-be01104a3bf7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/02928264-aa7d-3541-86ac-50d528faa015.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/04834ae2-1ee4-3c44-9bcd-a5a650dfaf3d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/057fc01a-ef76-3e5c-9f05-b8f1da13d974.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/062f4026-424c-3a2d-852f-e5020bf9dcad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/065f0c97-88cc-3f70-acc5-232403a12b21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/07f924e0-abcd-317e-9949-999a3f9ad149.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/080eaab4-3f18-399a-97cd-f0e46982ad78.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/087f9b1e-591a-318b-b25d-f7ec2b16f598.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/09769a41-3901-38dc-8ae2-a88e5b506a8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0c94ee37-79e0-35e9-9d06-bbe94deb4dd3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0cdb9d9f-6cf4-3cf4-9dfa-687162cfd95f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0d78fa29-08fe-3fef-95c5-533766cc21ae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0f6422fa-104f-3fdf-bbb1-a9949f28fb51.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0f7c5272-495e-3e72-ab83-6f94e1e9731f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1061078c-743a-3d8c-9abc-b37b28b981c0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/10aa09d6-bdc9-32aa-b80b-b991aa5c16da.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/10ca84a9-d39e-3d4d-bb20-f0ce75ea6edc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/117f6864-3145-36a6-bee0-7ad1b1ffa10d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/127f22d8-ac8a-3226-a0cc-ab228cfc654c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/13d57519-b1bc-3291-9107-a6fd6f2c65c6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/15516df7-c221-3912-9837-185f4a41de7b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/156e140b-21ed-30b2-b4c7-a37507859212.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/15ad2229-2d50-3832-9232-66a529b66dd3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/16ad9813-e021-34be-b64f-544b88adb4c3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/16c520a7-c8e6-3a45-bfbc-9e2f15fcbcdb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/18688735-e54c-3b57-adb5-ef8d55efd0ec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/19a2cd04-8251-3a5e-a5de-ed4361fee2b6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1a9c6e8f-f935-3f8a-8620-ba0614be04b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1b079795-dd22-3069-a026-a3b78a1613c7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1e89f087-bed8-32eb-a022-2ef2c53975f9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1f416578-23d7-39ff-b7cf-6dc78cf66111.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2007329f-d9ed-3c73-8c68-93785ad15208.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/21223fd3-67bb-330e-a05e-b61433d6b2ff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/21329aa5-0097-3960-b31d-7351615098c2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/21eac98a-c1a2-3d41-ae11-2b643be5b33e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/220dc91b-f582-3b6f-b648-fb92fe161b39.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/24adc375-c9a0-3167-bc68-9b00bc94c6e8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/257f796f-d2fc-398c-a29e-914586138626.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/260ea148-529e-37ef-94a3-8d3ab20834bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2766751b-ea07-337b-b925-0d5c39fdf5da.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/28d13f76-518f-36dc-a639-286175e67a6b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2b536e3a-e281-3627-aa1b-f48252b98b96.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2c75814a-d8c0-30de-8bc8-f37b9fbe1ee1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2c865202-6705-3dc0-b299-1c8b04b91a73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2cb78096-d467-355f-b2cf-9795aaf807cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2d1f2a43-1c18-3978-a4d5-3057ca25e6d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2d2a60b6-ca6d-33ee-a3ec-3bfe44db5b6d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2e85c584-4fc7-3022-8106-9fed05310928.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2f436ea1-5570-364b-9ca6-2d9e6685a31f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2f784acb-58c0-3e34-9827-bb6ff4303779.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3068e52f-96b7-31e9-b503-dc56aff5bb23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3207f6cf-e8a6-375f-89c9-c06965375d95.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/32979bc4-7f94-3093-9da4-7abaee03f4aa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/333a06bf-5860-3f4a-a85a-4aa72ae501c6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/337484a8-07ca-3b74-851d-d09c5756a887.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3379b5d4-ed67-3f7a-b8c1-8bb61d06cfdc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/34ea1c90-936c-3aab-9641-0dd0044aa49c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/360b77c7-e5e3-36e1-a13f-f17b06193522.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/37304e44-7064-39d1-9f51-5f2d4949fa8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/37bb5119-02ae-3733-b795-bcbf2a76c199.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/38974c8c-d4ac-3741-9aa8-39a479c1f940.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/39cadd1d-8e85-36e5-9cd5-cf11d03446b7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3b07431c-56f4-3388-a39d-b82309c0860b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3bf092ed-3f23-3442-ac56-62b5ed81336f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3eb7c980-4cd7-3080-902d-d8be4223179e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3f457e39-73a7-39e6-8f14-23c72e651b2a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3fcff7ae-fe0f-3b15-9123-acfd19b50af5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/40aa9e7a-070d-3b7c-9007-63377f6ed425.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/41SJaY bfsL._AC_SX348_SY500_QL65_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/41uTGPpSBmL._AC_SX348_SY500_QL65_.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4252af3e-2223-3b21-84f4-243f79bd5fe4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/425902bf-9d28-38da-b5c5-600acd07700f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/42b8519a-bb5c-332c-a4c8-45071798969a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/42e4ef28-9afd-304c-8ddc-551e5bbe79fc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/440e3a7c-ec40-3c8f-8167-312b02793e21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/44a049f9-0940-3a27-bce0-b4da8eca631e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/454571d9-c1ff-30d9-905e-2a99fd033094.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/45b79dd4-5fc3-3cee-bcb4-2a9463126ebe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/45cec718-2ef0-308f-8d8a-7a180cfd2820.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/46b8fba7-19ab-3adb-8252-3196e63dcafd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/46d9bb68-1bff-36b4-b390-600da3041283.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/470a65d9-c8a4-3eff-ad12-dd2ed5217c88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/473bfc1b-01e3-3337-832b-ca35bff95d0b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/48bcdf75-082a-3c24-bbb4-57473b72b862.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4ac77b39-0325-3fd3-bedb-4a1562c5602d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4c399a3d-48e3-33ea-9664-cc3200b0986c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4e223a3e-d663-3999-9416-c19f60119b38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4e308cd8-603b-3ac2-8266-a170028affcf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4eed54df-f278-3c00-a244-e125c8466171.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4f1b4f5a-0c86-3873-8e01-3b2bab263162.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4fb96e32-1f51-3338-bcd0-2e89b683036e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/50313242-037e-3ee5-9c9c-ca178754c309.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/50599181-9d29-32a2-9b1a-544ea49096d8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5059dcd8-90cc-3861-8aa0-2f8d1964ab40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/505d9450-9467-3107-9bd7-d58f293f9fe7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/50d00937-e7ce-3210-8d54-8aff2e6140a7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/51f0b580-b4b6-38b2-a036-b4927bd73ffd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/522bd7d5-c3d3-3a71-85f4-e427cab57f0d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/52a541bd-acf5-3643-80c5-5da7ee713dc0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/52e9d6fb-e03e-353b-ab53-af6963cb771c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/530dccc1-6f99-36ce-8db3-de266d11ce5e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/53cdb4a7-7c3c-38ce-9ed0-2d3229fd612a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/54a0a728-9d14-3735-a50a-63fe8d555c93.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/56443184-000e-3d08-8eef-13c65608e72c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/569aed07-c874-38a8-a14a-e0d8dd6bd69a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/575db731-c27c-34cc-924a-de813dbb5b97.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/57cc238c-8c9a-3cc2-a9b4-eac245f31248.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/580b0a35-cf7b-39a7-9dd4-09fc9226ea98.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/589a07d0-8b21-3fb5-b7e1-248f758cffd7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/599c1b7c-8c6b-3e15-8e8e-40be3cf51bed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5a4a0910-4bc6-3aed-b281-746c93999b8b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5c26732a-1340-3f57-a2b4-42617e8db146.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5dc2d97b-207d-307f-90d8-f4bcc1d7b460.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/61867dda-2b47-3b25-a2ab-b69a00388305.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/624e04ef-1043-34bf-80f4-abf7a5dfede8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/62f9233b-06fd-364d-b5de-039bd7c8125f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/62fd3daa-b72d-3116-90b2-6d41430ed5d0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/630004ea-2e47-3fa8-bafe-d4da4424a90d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6513c071-8551-3a39-9c77-5e8d2ef3f34b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/66ae4b0a-e764-3cea-a073-b55a42541623.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6732c23c-ea12-3bee-a2e7-00265cf5bc62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/68bbbd17-5cf1-3bf5-8709-c2ab981b2386.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/69894194-8e90-306a-bb2e-b060a46e7d5c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/698c8ce9-2ffe-306b-89ba-ae1e58457981.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/69ab9569-68f7-3c73-be80-6ccc196a1e8f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/69e2b3fe-086e-3b65-b755-f673a1ae4e30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6a0cf9e7-d266-3739-96e5-d98d67426c04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6c3df24e-041f-37d0-945f-e741c7ff7e13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6dd43a66-4091-398a-938e-29213f382c0f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6f43cc06-d3ae-3a42-a7c1-b36af80e8c73.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6fb7e6d2-631e-3683-ac38-1c0015b593d5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/70b953b9-d08e-3321-b881-9146a78f14f8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/726122c9-6de5-3a37-8a4c-160988a246ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/73424960-9492-32f4-8de1-82347b4b85ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/734e0616-3ff5-33ec-944c-be4a208d732e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7438fd1d-d6a2-3a68-b74b-37d6998701b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/74d1392c-c32f-3024-9a81-b34a4d266481.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/75722aba-191e-311a-86a2-264888f784d4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/75abcaf4-827a-3560-92bf-96ba4aa65e62.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/76ec0de9-b01f-37b7-a999-1e627341eccb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7726aa20-880a-3807-a5f0-99cfc91b48ec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/77eafde2-9b2b-3090-92e5-e21ce3cfdfb5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/787426ae-df43-3d31-86f7-4911e8369fdd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7934213e-b698-38c3-a0c1-ff5b0bc8de72.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7a3d885a-3f69-389f-9667-4bd3eabf6a44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7b6bc5ce-dae4-354e-b731-3ab40fb17d80.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7ba1ea29-b0ba-3e11-bf3b-31c42bc81d10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7be3af82-b1b5-315c-b415-29ae1141c090.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7d51b6f5-a3eb-31cc-b49f-3cb609f1f9b1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7d8f618d-10fb-39c3-8590-80363cb879b9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7f581cd0-2953-3ff8-8899-d45cede6ca52.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/80e27e72-1a9c-3ccc-9904-b446d2be1ecb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/81f77f34-5fc7-34bd-843e-8fe28a8e427a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/82043aba-46a5-3e20-b734-6a4c9df1efdc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8335df28-533a-30f4-9980-701b62c598ba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/834aa432-17f2-3220-a8a6-beda71a20e3b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/84b2c431-051c-30e0-8270-35204876177c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/85ca6969-50fa-310a-af37-8fc21de99416.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8665cc3e-fffd-3c01-ae81-1b1426ffcdb5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8670ad3e-2226-3525-9d80-dfb560542b93.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/86d9ce49-32f0-33c7-99f2-539a776f0b22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8816e9e2-a82c-38c4-b877-8b7d7c6e0789.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/890233c7-b1d7-3b41-b1e2-5e129f0f9418.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8ba97478-7a99-38cb-bb1f-9c97423aeeb0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8ca322de-afcd-3a64-bac1-9cb1e61e968b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8e63ae6d-a85f-39e2-9620-3cae573515c8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8e794239-1dde-388d-b623-662317a1ecfd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8f86b067-2713-3b37-8124-b45b5635c3cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8fce6ac5-72cd-3c97-a111-690a02540d2c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/904093f7-df79-3178-9009-0a04acbd723a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/90a41919-d5f0-3fab-a010-7a9760538f3a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/90e54313-f490-3de5-a269-1b4ab8136ce2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/91582982-b305-36fe-ac3f-35905e820cb1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/92395eef-284c-34bf-a8ce-94bb31fedfcf.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/927f5c2d-1908-3c99-ae96-5b7b123f6fe0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/92ed6245-2668-39be-9a1f-57e13d0a391f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/94d14678-3b4e-3db0-ba7b-0efa1720eee4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/95397f88-e3c8-3e18-9170-b49e3bdfd824.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/96b5715d-8e5e-39d5-b44b-2cf3e4d6ada2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/99650ec9-12bd-39bf-854e-1aba18369b27.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9a09186d-80eb-3adb-8c5c-fc6abb09027c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9aa10311-68d4-3359-b1d3-231cb73cd29f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9c38120f-4445-3a88-8b61-01833c1a94ca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9d35731e-ad9a-338b-9053-3772d23d8067.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9ebf2822-7301-3e3e-929f-6a810aa3db49.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9f296ff3-7963-3870-8e15-d90ff2fccf1f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a075a63c-1ce0-34d7-97da-32dbe8efcfb0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a14b2ecb-670f-3680-9ba7-61a164aa6cca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a14bb558-27e7-373a-a956-b8a44c3d6289.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a1764818-c8fd-3e72-8b4f-f8d2f8a0dd8b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a1d8f9ce-cc69-3549-9946-fe37715d35ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a21c3db0-94aa-32e6-a2b0-b45464202e38.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a263c111-f6be-3548-bb17-cfdeb736f427.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a3ec04cd-f4f8-3ba5-8d4c-0610268b6604.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a478d77e-d257-3790-af11-21e928932e99.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a4c3b772-0e32-372b-8490-e75232098622.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a5af526d-fcce-35f1-a58d-8c19a056eaae.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a5f4dd73-4643-33fc-80f0-9a8f3fe594be.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a87309db-43f3-339e-ae7d-bd66929a579b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a8d23b95-3117-3c93-aa75-971de45772cc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a959b581-2071-345f-8434-b1ded2bda8bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/aa5f68e4-3c32-392b-af5c-62f2cbcf4b40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/aa96ab00-e054-347c-b116-609f6f7f9c18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/aa9964fd-7ac7-3b2e-89ee-4d9c0a9ec3f9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/abdcbdd2-1fa3-34a3-aaf4-0491998f6b37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ac161ba8-836b-36f2-97eb-bcbf23668d53.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ac42f206-eb15-3008-9ab5-fbd398e47f98.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ad2e86e7-d031-3fd6-b53c-148cab4d189e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/af5dbf78-b8e9-3825-8746-761031ccd169.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/af83cba6-56e1-3e80-9da2-8881237a1b56.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/afada8a9-6745-333c-aa53-18e492262a16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b106b647-4996-3257-93c7-ab61194a715b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b206d3b9-4019-3104-8c97-f8c998455412.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b2f3d26d-eced-30d3-8ca4-c26d16b9ed26.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b383387c-744c-3977-96d3-f8f851e1c790.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b3f44391-f3c5-35f6-b5d9-c16a1256b986.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b44ca4c1-48a3-30f4-ad75-c6aa872f24fc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b469aa35-b14d-3992-9994-fadffd9b32ca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b59fef7d-099b-3166-8cb2-67baa840b361.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b6bc586b-af8b-3267-89d4-a9eb3da646ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b70afec3-fa77-35a2-b881-1cb17a86825e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b77ca26a-d764-336e-b54f-2c9435c117ee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b8f7f4fe-2c40-308f-acbc-d603be9a41ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/b99a4685-8aab-3bf6-8ec0-a985e589d83b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ba56544f-9699-3f29-a846-4a9f30d13767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/bb8ba80d-54a4-317b-bad4-cda6262f39bb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/bd12e1ca-7b77-3137-a95f-2e8449f20c57.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c0196fe2-0801-399f-a87c-3536e64e7767.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c07ea7b6-00fa-31ae-a83a-d052890cb5fd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c27e04c6-abde-3efb-8740-f2bb77b1e235.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c40c6b74-5b7f-3dae-8c0f-654874a03d8a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c5331b74-a277-3874-8454-136063cbc7e2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c59d8def-6e88-3a0f-babe-ad39bc904c03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c7167816-2e62-3fdc-9f7a-dd4518bf1b88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c793a62b-a30b-3541-8295-fb37f3f5d4b9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c8573027-feda-3ef9-a8b4-34bfd2f32259.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c860be73-0dd6-3242-aa83-b1620caa5311.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c91c8e3b-86b7-307f-a534-0137305dc384.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ca1547f4-40a2-302e-8448-ef22e4c8a9c5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cb2fabc2-96b0-3d2f-a57a-9a3bf454a59e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cb49c698-4201-37c0-b1a0-5e864bdf0be4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cc1a7371-6ed9-3b62-b348-f6ef4374fe23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cc73686f-0dd2-3463-8aa8-daf007fc7c7b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cd0696dd-fe17-3034-9380-d12e7cb585c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cee4a2c8-66f3-3578-8b58-0bb3387075dc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d038c96b-96bb-3812-a5e6-faafd56a378b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d113e471-ab58-3cfc-920b-9f1cc9c39568.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d1b9b072-55e9-3b3b-81b0-ac9aa269672d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d3b3a3e6-704b-3cbf-9b0f-4184f06b63ab.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d4ba0152-8848-3a47-9d02-3b2db38e7017.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d5be950a-08a3-3b21-9aab-77e5f8bc7ab5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d7fae0c0-886d-38d9-8fe2-0c30ab152c3f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d85150af-182b-3e90-812b-79949ce1ce4d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d8c34099-4357-34fe-8f7d-f0f7ede125ed.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/db5b8cf6-2d5c-3494-a520-d3ad5bf275ef.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/de33db1c-7124-3485-8565-af691b3db651.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/df3c6c93-f921-3500-8515-8aa0c00b8139.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/dfcf28af-2bd6-329a-8198-0f144eb5dd4a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e0aa726c-75a3-39dd-bad5-fdab2ef40aa6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e0ccff16-2196-3c1e-b74a-7c2beb0f6e32.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e2da8440-4918-3ec9-9ce5-e60502591a44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e2e3c5d8-b41f-3f87-9ec1-62cca4ff7ec5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e364928a-5b8c-3296-be9a-fb0b9de8e785.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e48bafd0-9475-39c1-a1f7-8092dba709a4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e564f2e5-4e1a-32df-964e-bd1d27c68b13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e673cafa-8189-310a-a597-09f2f32d5f95.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e6c90989-bd34-36a6-875b-8258e95ec896.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e8b4eb16-2b04-3a23-bb9d-c4c256cce612.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e91d90ae-95ca-306f-87d9-4cc989d760ce.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/eae1dc6c-7426-396a-99df-fb0f24d21067.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/eb530757-e008-3f45-8b6c-135c7d7302bd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ec49afff-3a93-3ebd-8bc9-ea1014f42d0e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ec97205a-a920-372d-8fe5-25886ee78960.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ee479455-9bc9-31ff-a0d8-e605c8c5daad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/ef7d0c40-aa3e-3837-b6e4-56b61c1f35b0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/efac3a60-8860-3c46-b1b0-a2b899ea4d35.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f0870376-d88e-342c-93d2-27cf0fe270d4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f0a1430e-ba65-38dd-982b-0e24ea0a82cd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f10a4a57-7927-3be7-92f8-d22cfbf88f9d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f24df0bd-0eb7-3ab5-ad5b-f3240d3158e5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f2b53162-72ff-3cbb-b452-123046a5d41a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f39fbfe7-22bd-39fe-9c12-82051ae5f39e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f433aef7-26a9-3bbb-9dd6-be64f3ebdef8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f74c2268-c5a0-3796-a75b-ce3505feff55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f9f3e103-cde8-3a0d-abab-a3626344a2c4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fa211712-327c-361a-abcd-28e2dc9c4f01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fa44fd0b-0a99-3712-aea3-079750e79aee.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fa51ff74-0aa0-3614-ab97-d34a4ad2ddc5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fbd811a1-a120-341c-a22d-f8493e773ab6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fc6efd2f-462e-3412-bbae-1c94c074d6df.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fcfa17a5-8842-3f51-9f8e-23bd7635e44a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fd03bb5a-b4ff-3970-92d6-44691d5f60f6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fda87365-f9d3-322c-8307-9a6beb319efc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fdf6e5b7-cd3d-332a-b358-b23134c89f2f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fe205c77-890c-3af3-b729-ff72a16737a0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fe9930e6-71f1-3739-a075-91c17c3a1b19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/feb547f9-84fc-353f-9f7d-1d51bf8e9b81.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/books_cover/feb927f9-be7b-3920-ade1-5aaa7d255a1f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/AuthorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/BorrowController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/EditorController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ThemeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/AuthorThemeEditorFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/BookFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataFixtures/UserAndMemberFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Author.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/AuthorSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Borrow.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Editor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/EditorSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/ThemeSearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/AuthorSearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/AuthorType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/BorrowType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/EditorSearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/EditorType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ThemeSearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191112120212.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/AuthorRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/BorrowRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/EditorRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ThemeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/KnpPaginatorBundle/views/Pagination/twitter_bootstrap_v4_pagination.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/author/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/borrow/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/borrow/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/borrow/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/borrow/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/borrow/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editor/_delete_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editor/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editor/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editor/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editor/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/editor/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/theme/_form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/theme/edit.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/theme/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/theme/new.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/theme/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/KnpPaginatorBundle.fr.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LirePourExister.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LirePourExister.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/011612e4-dd9e-354b-8304-f1e4a060d33c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/02d0dc76-6385-3d36-97de-674c128203dc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/02d1985b-df76-37ce-9e5a-968b136e8431.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0315825b-76b3-32e7-a663-8a8e378a3f04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/03e8ef32-65e4-32f6-86f6-3ec721e633c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/06d4e393-1f76-31cc-834a-bd60c588751b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/073b58b1-62a9-30e3-b4dd-6957017d8b70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/09efb49a-0d10-38b9-9fcc-dd83668c3c8a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/09ff8ee1-36cb-3204-9f63-4256e350c6db.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/0e5415a2-1add-3bdf-a752-93a06881cd24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1004ea67-365e-32d5-9297-e59f683f0ee2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/11b21b71-f449-3643-aef9-35b9b437d137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/13c59f05-1588-33a9-8bd9-1b384a062829.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/16a82c17-582c-359b-ad60-f33fcc2b2c5f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1a4032f1-e9b6-3610-ac6d-e415e40d0830.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1a5011ee-5958-3a4a-9687-9e334397ee65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/1d13dd09-50a9-3387-846c-c9d0307a1b7e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/27d6b68d-1b43-3352-b87d-d17cf4dca693.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2a4408aa-0e73-3679-be0f-b62dc42af05a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2c16579f-462d-3230-8124-cd117789bb2c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2e116ae4-5a0b-3d7d-b09f-6fd7d51876a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/2fc503a9-b608-3f12-96f9-923f34e1649c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/318fbc73-f95d-35c0-9e80-ae0af82ba82e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/32030784-f67f-31f0-9be3-0e6f689c0c94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3209c3fd-c687-3cd2-85c9-3f49e644013b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3244b389-75fa-33be-9936-9f48ea1335e1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/32e215ad-f70a-3675-b0bf-7bc3bc57183f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3375fd9d-6061-3c6c-b566-e2e23372908d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/34cc8bc2-21c8-3cc6-8d98-5b00515e6ac6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/35d94a68-f10c-33ef-a388-a5ce1d849fbb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/3630511c-a993-3456-8d49-9ee24f8562a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/39051dc7-e0d3-35b4-b12d-969482291577.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/42605957-c057-3bcb-bc47-7e8c8866dd34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/42aa4fd0-4230-3c58-986f-31514076c521.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/497dffb2-d17c-3459-81b8-22f801813af5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/49ff6a61-60c0-33e0-a648-0ec2820c6346.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4b0ca356-3d51-33a4-bdee-6bceb174abaf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4dcafd34-9300-3f13-b774-6c89bf1b2471.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/4eef644d-28d0-3dac-a281-23821328d2e7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/51cf4a53-36f8-3b3e-a234-c9229cc0983f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/53b3d788-dce8-37a8-ab4e-492a793168b0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/53f9ec93-8bf4-3b31-9b0f-d52c4ea8d74c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/549e6f48-2706-3255-8617-d73750d854e2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5569ecf1-d3fd-3405-bd9d-c4abcd8f55f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/55c3399e-d32e-38bd-81cc-60f3909d7f39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/57b72f56-4605-381e-ba03-f651859ebe4f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5ba5e2e5-a13c-35bd-9128-963cca95915b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/5e3c109e-3e98-3675-b725-746427f26d63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/60c87024-7f41-3b91-aecb-28148d556f61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/61c0e4fc-0ef1-3e58-a361-c6c02923e6b8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6840871f-285a-3e06-91f2-167c451a882d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/686db55f-c057-388a-b1bd-6034316c9ed2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/694cf3d5-2624-39be-8da0-3859a97e356c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/6a822949-c7ac-344f-a34e-e2c27a072c82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/70e102a8-cb4b-362f-b011-dc24a1db3f72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7407433f-42b1-3c9c-8689-1b98b77207a3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/766f2577-8b58-35e7-a575-da5cda2e3ad5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/7b8c81a3-0859-39ce-b803-daba336783d8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/81064c68-c06b-3910-910f-63e25a47483a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/811a2c21-f942-3bfe-ac6d-9f5797d33dc8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/82235c1b-c5bf-34a0-8f73-47e51a9bc9dc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/855830cf-20d1-3514-95fd-703a105d54ca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/85c43bd4-63ef-3c85-b319-fdd220e3dc31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/88d23f91-82aa-37d5-b728-8167a3a46d2b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8a1efba3-9a85-3868-bc3f-5a5dd71cc766.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8d58696a-d2bd-3990-8832-954c09602167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/8efbe99e-7015-3715-8077-6bc7d6482c61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/95a892af-67db-31ca-9b39-0059b332cb5c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/994f8f83-7b6b-3374-9450-424241ea1610.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9c91595b-e6fa-3b42-9964-a3ef58eec422.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/9fd0b4d8-0527-341d-9b7d-88a4aa5be76d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a09a3ab1-dad5-312e-a211-5dd480171cf5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a3ebfa8f-c5ea-3410-ac06-9d4763e83dc6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a5b944c7-8abf-3b05-b35f-501639f24225.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a5da4601-bfb1-3bfc-9871-a2bab317712d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/a8b30835-b052-3d13-8ec7-b6189f574094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/abe9c78e-bbb1-30b2-ac14-5ebb6239eaf0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/af0a432e-530d-310a-8352-302b3a5b6e8e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/bce6e645-b724-384a-a005-94fa07476a22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/bec1759e-d444-3481-b8ca-a958c99fac0b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/bf24db73-974e-3850-9aa1-eda4973dc39b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c114bdb1-36a4-3157-8632-6022f386b4b2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c3801d70-16fa-3598-a62d-889768646b25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c82f6dab-7fc6-3c6a-b733-156309d490e0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c8fa60f4-cd75-3959-8cc7-84df56a858fa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c9dee655-e2f3-37cd-b7c3-88e88e8cd511.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/c9e2c514-52cb-3b74-9885-049a35060573.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cbbb912a-e1d8-395f-b156-82aa63403a9e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cdc4eb05-6407-3c06-ae25-caecc01ab7db.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/cf64f9fc-6e39-32e5-8a79-f474e5d232cb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d02e81cc-e3ce-35bb-9940-0c2153b47535.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d103acac-baa5-3ea1-9067-b6a6a6d03630.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d806e5f9-cd0b-36b1-b7ae-8467f46e0e40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/d9eb77aa-01da-3ce2-9ff3-c55e5bdcca36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/db4e73f7-897f-33da-a258-42d0342c5cb9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/df3224b6-9504-3312-9cb2-5667d4d52a1b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/e49363fc-4dd4-3bd7-b25f-2a104e7d2364.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/eb1f614b-c443-326e-8c6c-96813496fa9c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f500edf2-d4f3-342d-9fde-3f0885ceb236.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/f6815310-34d6-3d19-976b-edddb90260bd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fbd04996-10de-3ed7-bcfd-8a02cb72ef03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fca315bc-271d-33ef-8e1b-11945d8e1dbb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/books_cover/fcfa734c-fa6b-3c18-bb80-6a0aeac9a280.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/BookSearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Envent.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Sanction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/BookSearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/CartRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/EnventRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/SanctionRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/book/booksByAuthorsOrEditors.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/6ac95925e2b158dc22a2374d24dd82b8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/books_cover/02a3025d-7822-3494-99d6-de02ab520c14.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/797ab4c51362e5ad2285d42e7586e2c9.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/books_cover/06357716-c1cd-3fc3-b4ab-a53fc5d9a1ee.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/uploads/92b5e182d3e14a0c64a6cdc5a9736192.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/books_cover/624e04ef-1043-34bf-80f4-abf7a5dfede8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AuthorController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CategoryController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/GeneralController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GeneralController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MemberController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MemberController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BorrowController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/EditorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/EditorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ThemeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ThemeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BookFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BookFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Author.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Author.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Book.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Borrow.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Borrow.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Editor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Member.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Member.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Theme.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Theme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AuthorType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AuthorType.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Form/BookType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/BookType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/CategoryType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ThemeType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Form/MemberType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MemberType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Migrations/Version20191031071505.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CategoryRepository.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/MemberRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/MemberRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/BorrowType.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/ThemeType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/ThemeType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/BookRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/BookRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/EditorRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/EditorRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ThemeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ThemeRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Admin/admin_template.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Admin/admin_template.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Admin/dashborad.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Admin/dashborad.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author/_delete_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/author/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/author/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/book/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book/_form.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/book/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book/edit.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/book/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/book/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book/new.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/book/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/book/show.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/_delete_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/borrow/_form.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/edit.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/index.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/new.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/category/show.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/member/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/member/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/borrow/_delete_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/borrow/_form.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/borrow/edit.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/borrow/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/borrow/new.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/borrow/show.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/editor/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor/_delete_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/editor/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/editor/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/editor/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/editor/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/editor/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/editor/show.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/member/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/member/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/member/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/member/new.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/member/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/member/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/_delete_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/_delete_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/_form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/_form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/edit.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/edit.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/new.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/new.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/theme/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/theme/show.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -450,45 +221,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashborad.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/Admin/dashborad.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/AuthorController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/author/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/templates/theme/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/author/new.html.twig">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/author/edit.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="25" column="31" selection-start-line="23" selection-start-column="24" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -496,41 +233,83 @@
       <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/author/show.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-              <folding>
-                <element signature="e#12#42#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="901">
+              <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/author/_form.html.twig">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/book/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-end-line="102" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthorType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Form/AuthorType.php">
+      <file leaf-file-name="booksByAuthorsOrEditors.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/book/booksByAuthorsOrEditors.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            <state relative-caret-position="1054">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Author.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Entity/Author.php">
+      <file leaf-file-name="BookController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/BookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="122">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Book.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="247" selection-start-line="247" selection-end-line="247" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Member.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Member.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Borrow.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Entity/Borrow.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#30#78#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Repository/BookRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Repository/AuthorRepository.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -547,6 +326,7 @@
       <find>background</find>
       <find>$category</find>
       <find>category</find>
+      <find>bor</find>
     </findStrings>
     <replaceStrings>
       <replace>asset</replace>
@@ -560,57 +340,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Form/CategorySearchType.php" />
-        <option value="$PROJECT_DIR$/src/Controller/CategoryController.php" />
-        <option value="$PROJECT_DIR$/src/Repository/CategoryRepository.php" />
-        <option value="$PROJECT_DIR$/templates/category/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/MemberController.php" />
-        <option value="$PROJECT_DIR$/src/Repository/MemberRepository.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Member.php" />
-        <option value="$PROJECT_DIR$/templates/member/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/UserAndMemberFixtures.php" />
-        <option value="$PROJECT_DIR$/src/Form/MemberType.php" />
-        <option value="$PROJECT_DIR$/templates/member/_form.html.twig" />
-        <option value="$PROJECT_DIR$/src/Form/BorrowType.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Borrow.php" />
-        <option value="$PROJECT_DIR$/src/Form/BookType.php" />
-        <option value="$PROJECT_DIR$/templates/book/_form.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/GeneralController.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" />
-        <option value="$PROJECT_DIR$/src/Controller/ThemeController.php" />
-        <option value="$PROJECT_DIR$/templates/theme/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/theme/_delete_form.html.twig" />
-        <option value="$PROJECT_DIR$/templates/theme/edit.html.twig" />
-        <option value="$PROJECT_DIR$/templates/theme/new.html.twig" />
-        <option value="$PROJECT_DIR$/templates/theme/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/ThemeBookFixtures.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Book.php" />
-        <option value="$PROJECT_DIR$/src/Entity/Editor.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/ThemeBookAuthorEditorFixtures.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/AuthorThemeEditorFixtures.php" />
-        <option value="$PROJECT_DIR$/src/DataFixtures/BookFixtures.php" />
-        <option value="$PROJECT_DIR$/templates/book/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/book/show.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Theme.php" />
-        <option value="$PROJECT_DIR$/src/Controller/EditorController.php" />
-        <option value="$PROJECT_DIR$/templates/Admin/admin_template.html.twig" />
-        <option value="$PROJECT_DIR$/src/Controller/AdminController.php" />
-        <option value="$PROJECT_DIR$/templates/Admin/dashborad.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/AuthorSearch.php" />
-        <option value="$PROJECT_DIR$/src/Entity/EditorSearch.php" />
-        <option value="$PROJECT_DIR$/src/Repository/ThemeRepository.php" />
-        <option value="$PROJECT_DIR$/src/Repository/EditorRepository.php" />
         <option value="$PROJECT_DIR$/src/Form/EditorSearchType.php" />
         <option value="$PROJECT_DIR$/src/Form/AuthorSearchType.php" />
         <option value="$PROJECT_DIR$/src/Repository/AuthorRepository.php" />
-        <option value="$PROJECT_DIR$/src/Controller/AuthorController.php" />
-        <option value="$PROJECT_DIR$/templates/author/new.html.twig" />
         <option value="$PROJECT_DIR$/templates/author/_form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/book/_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/DataFixtures/BookFixtures.php" />
+        <option value="$PROJECT_DIR$/templates/book/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/member/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/member/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/member/show.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Admin/dashborad.html.twig" />
+        <option value="$PROJECT_DIR$/templates/editor/_form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/editor/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/book/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/editor/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/author/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/Admin/admin_template.html.twig" />
+        <option value="$PROJECT_DIR$/templates/author/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/editor/_delete_form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/author/_delete_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Author.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Editor.php" />
+        <option value="$PROJECT_DIR$/templates/editor/show.html.twig" />
+        <option value="$PROJECT_DIR$/templates/theme/edit.html.twig" />
+        <option value="$PROJECT_DIR$/templates/theme/_delete_form.html.twig" />
+        <option value="$PROJECT_DIR$/templates/theme/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/ThemeType.php" />
+        <option value="$PROJECT_DIR$/templates/theme/new.html.twig" />
+        <option value="$PROJECT_DIR$/templates/theme/_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/AuthorController.php" />
         <option value="$PROJECT_DIR$/src/Form/AuthorType.php" />
         <option value="$PROJECT_DIR$/templates/author/index.html.twig" />
-        <option value="$PROJECT_DIR$/src/Entity/Author.php" />
-        <option value="$PROJECT_DIR$/templates/member/show.html.twig" />
+        <option value="$PROJECT_DIR$/templates/editor/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/theme/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/Entity/Theme.php" />
+        <option value="$PROJECT_DIR$/src/Repository/EditorRepository.php" />
+        <option value="$PROJECT_DIR$/src/Repository/ThemeRepository.php" />
+        <option value="$PROJECT_DIR$/src/Form/BookType.php" />
+        <option value="$PROJECT_DIR$/templates/book/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/EditorController.php" />
+        <option value="$PROJECT_DIR$/src/Controller/ThemeController.php" />
+        <option value="$PROJECT_DIR$/src/Entity/BookSearch.php" />
+        <option value="$PROJECT_DIR$/src/Form/BookSearchType.php" />
+        <option value="$PROJECT_DIR$/templates/book/index.html.twig" />
+        <option value="$PROJECT_DIR$/templates/book/showByAuthorsOrEditors.html.twig" />
+        <option value="$PROJECT_DIR$/templates/book/booksByAuthorsOrEditors.html.twig" />
         <option value="$PROJECT_DIR$/templates/author/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Repository/BookRepository.php" />
+        <option value="$PROJECT_DIR$/src/Controller/BookController.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Book.php" />
+        <option value="$PROJECT_DIR$/src/Entity/Member.php" />
       </list>
     </option>
   </component>
@@ -752,9 +532,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="780" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -765,31 +545,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="LirePourExister" type="b2602c69:ProjectViewProjectNode" />
               <item name="LirePourExister" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LirePourExister" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LirePourExister" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LirePourExister" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LirePourExister" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LirePourExister" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LirePourExister" type="462c0819:PsiDirectoryNode" />
-              <item name="translations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -807,7 +571,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -900,7 +664,12 @@
       <workItem from="1573402467156" duration="3668000" />
       <workItem from="1573445996114" duration="5386000" />
       <workItem from="1573479132162" duration="28443000" />
-      <workItem from="1573652187472" duration="829000" />
+      <workItem from="1573652187472" duration="1854000" />
+      <workItem from="1573811166584" duration="1018000" />
+      <workItem from="1573872448544" duration="19869000" />
+      <workItem from="1574101878286" duration="5533000" />
+      <workItem from="1574262757562" duration="1277000" />
+      <workItem from="1574347046559" duration="5193000" />
     </task>
     <task id="LOCAL-00001" summary="origin">
       <created>1572102761574</created>
@@ -916,15 +685,21 @@
       <option name="project" value="LOCAL" />
       <updated>1572704432014</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v0.0.2">
+      <created>1573656090681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573656090681</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124846000" />
+    <option name="totallyTimeSpent" value="158761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -945,8 +720,8 @@
       <window_info anchor="bottom" id="Flutter Performance" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.50930625" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2604088" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.50930625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2604088" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="SciView" order="11" weight="0.329296" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -976,358 +751,143 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/author/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="e#12#42#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/member/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/book/_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/BookType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="63" selection-start-line="29" selection-start-column="20" selection-end-line="30" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/BorrowType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/CategoryFixtures.php" />
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/knplabs/knp-components/src/Knp/Component/Pager/PaginatorInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/GeneralController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="28" column="44" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/theme/_delete_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="42" selection-start-column="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/theme/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="e#470#480#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/theme/edit.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="e#211#222#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/UserAndMemberFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/AuthorThemeEditorFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-          <folding>
-            <element signature="e#36#58#0#PHP" expanded="true" />
-            <element signature="e#587#1972#0#PHP" />
-            <element signature="e#1993#5020#0#PHP" />
-            <element signature="e#5041#5985#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DataFixtures/BookFixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
-          <folding>
-            <element signature="e#36#56#0#PHP" expanded="true" />
-            <element signature="e#821#4215#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Theme.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="70" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/book/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_template.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
-          <folding>
-            <element signature="e#3931#3943#0#Twig" expanded="true" />
-            <element signature="e#4479#4491#0#Twig" expanded="true" />
-            <element signature="e#4198#4210#0#Twig" expanded="true" />
-            <element signature="e#4756#4766#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
-          <folding>
-            <element signature="e#123#159#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/EditorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Editor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/AuthorSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/EditorSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/ThemeSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/MemberRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/ThemeRepository.php">
+    <entry file="file://$PROJECT_DIR$/templates/member/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="e#34#55#0#PHP" expanded="true" />
-          </folding>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/EditorRepository.php">
+    <entry file="file://$PROJECT_DIR$/templates/member/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ThemeController.php">
+    <entry file="file://$PROJECT_DIR$/templates/Admin/dashborad.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="e#1776#1797#0#PHP" expanded="true" />
-            <element signature="e#2064#2086#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ThemeType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#28#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/AuthorRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="85">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/member/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/ThemeSearchType.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="56" />
+          <caret line="6" column="10" lean-forward="true" selection-end-line="181" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/AuthorSearchType.php">
+    <entry file="file://$PROJECT_DIR$/templates/editor/_form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="e#28#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/EditorSearchType.php">
+    <entry file="file://$PROJECT_DIR$/templates/editor/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="e#28#56#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/Admin/admin_template.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="71" column="66" selection-start-line="71" selection-start-column="66" selection-end-line="71" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editor/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editor/_delete_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/author/_delete_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="150" selection-start-column="150" selection-end-column="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/editor/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/theme/_delete_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/theme/edit.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="501">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/theme/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="49" column="71" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/ThemeType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/theme/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/theme/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/theme/_form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="51" selection-end-column="22" />
-          <folding>
-            <element signature="e#406#2238#0#HTML" />
-            <element signature="e#1607#1617#0#Twig" expanded="true" />
-            <element signature="e#2432#2441#0#Twig" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/member/new.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/author/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-end-line="29" />
+        <state relative-caret-position="204">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/author/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/author/new.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Form/AuthorType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entity/Author.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="442">
+          <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1338,58 +898,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/author/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/book/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/editor/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="86" column="10" selection-start-line="86" selection-start-column="10" selection-end-line="88" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/member/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Theme.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="84" selection-end-column="14" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/Admin/dashborad.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Entity/Editor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" column="32" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="106" />
+        <state relative-caret-position="187">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Author.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/EditorRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/ThemeRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/MemberRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/AuthorController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1836">
+          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/author/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book/_form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/EditorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="108" column="9" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/AuthorSearchType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/ThemeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/AuthorType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/BookType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-253">
+          <caret line="43" column="20" selection-start-line="43" selection-start-column="20" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/EditorSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/BookSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Form/BookSearchType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="43" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/AuthorRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/theme/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="23" selection-start-column="24" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book/booksByAuthorsOrEditors.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/book/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-end-line="102" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/author/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
-          <folding>
-            <element signature="e#12#42#0#Twig" expanded="true" />
-          </folding>
+        <state relative-caret-position="901">
+          <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/author/edit.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Repository/BookRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="748">
+          <caret line="44" column="47" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BorrowController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/BookController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entity/Borrow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#30#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -24,10 +24,12 @@ class EditorRepository extends ServiceEntityRepository
 
     public function findEditor(EditorSearch $search) : Query
     {
-        $query = $this->findAllEditors();
+        $query = $this->findAllEditors()
+            ->orderBy('e.name', 'ASC');
+
         if($search->getName()){
             $query = $query
-                ->andWhere('c.name = :name')
+                ->andWhere('e.name = :name')
                 ->setParameter('name' , $search->getName());
         }
         return $query->getQuery();

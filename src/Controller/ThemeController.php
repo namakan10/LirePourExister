@@ -6,6 +6,7 @@ use App\Entity\Theme;
 use App\Entity\ThemeSearch;
 use App\Form\ThemeSearchType;
 use App\Form\ThemeType;
+use App\Repository\BookRepository;
 use App\Repository\ThemeRepository;
 use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
@@ -19,9 +20,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class ThemeController extends AbstractController
 {
     /**
-     * @Route("/Liste", name="theme_index", methods={"GET"})
+     * @Route("/ListeTheme", name="theme_index", methods={"GET"})
      */
-    public function index(ThemeRepository $themeRepository, PaginatorInterface $paginator, Request $request): Response
+    public function index(ThemeRepository $themeRepository,
+                          PaginatorInterface $paginator,
+                          Request $request): Response
     {
         $search = new ThemeSearch();
         $form = $this->createForm(ThemeSearchType::class, $search);
@@ -52,7 +55,7 @@ class ThemeController extends AbstractController
             $entityManager->persist($theme);
             $entityManager->flush();
 
-            return $this->redirectToRoute('theme_index');
+            return $this->redirectToRoute('theme_index', ['id' => $theme->getId()]);
         }
 
         return $this->render('theme/new.html.twig', [
@@ -82,7 +85,7 @@ class ThemeController extends AbstractController
         if ($form->isSubmitted() && $form->isValid()) {
             $this->getDoctrine()->getManager()->flush();
 
-            return $this->redirectToRoute('theme_index');
+            return $this->redirectToRoute('theme_edit', ['id' => $theme->getId()]);
         }
 
         return $this->render('theme/edit.html.twig', [
@@ -94,14 +97,21 @@ class ThemeController extends AbstractController
     /**
      * @Route("/theme_delete/{id}", name="theme_delete", methods={"DELETE"})
      */
-    public function delete(Request $request, Theme $theme): Response
+    public function delete(Request $request, Theme $theme, BookRepository $bookRepository): Response
     {
         if ($this->isCsrfTokenValid('delete'.$theme->getId(), $request->request->get('_token'))) {
             $entityManager = $this->getDoctrine()->getManager();
+            $book = $bookRepository->findByTheme($theme->getId());
+            if($book != null){
+                $this->addFlash('failed', "Certains livres sont enregistrés avec ce thème
+                            ! Changez l'auteur de ces livres avant de supprimer ce thème");
+                return $this->redirectToRoute('theme_show', ['id' => $theme->getId()]);
+            }
             $entityManager->remove($theme);
             $entityManager->flush();
         }
 
+        $this->addFlash('success', "Supprimer avec succès !");
         return $this->redirectToRoute('theme_index');
     }
 }

@@ -69,6 +69,12 @@ class Member
      */
     private $birthday_dt;
 
+
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Sanction", mappedBy="member")
+     */
+    private $sanctions;
+
     /**
      * @ORM\OneToMany(targetEntity="App\Entity\Borrow", mappedBy="member")
      */
@@ -77,6 +83,7 @@ class Member
     public function __construct()
     {
         $this->registration_dt = new \DateTime();
+        $this->sanctions = new ArrayCollection();
         $this->borrows = new ArrayCollection();
     }
 
@@ -201,6 +208,38 @@ class Member
     public function setBirthdayDt(\DateTimeInterface $birthday_dt): self
     {
         $this->birthday_dt = $birthday_dt;
+
+        return $this;
+    }
+
+
+    /**
+     * @return Collection|Sanction[]
+     */
+    public function getSanctions(): Collection
+    {
+        return $this->sanctions;
+    }
+
+    public function addSanction(Sanction $sanction): self
+    {
+        if (!$this->sanctions->contains($sanction)) {
+            $this->sanctions[] = $sanction;
+            $sanction->setMember($this);
+        }
+
+        return $this;
+    }
+
+    public function removeSanction(Sanction $sanction): self
+    {
+        if ($this->sanctions->contains($sanction)) {
+            $this->sanctions->removeElement($sanction);
+            // set the owning side to null (unless already changed)
+            if ($sanction->getMember() === $this) {
+                $sanction->setMember(null);
+            }
+        }
 
         return $this;
     }
